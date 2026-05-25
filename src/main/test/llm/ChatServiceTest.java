@@ -1,4 +1,4 @@
-package com.grp.aiapp.local.llm;
+package main.test.llm;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 

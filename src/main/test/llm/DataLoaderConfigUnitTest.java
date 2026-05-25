@@ -1,4 +1,4 @@
-package com.grp.aiapp.local.llm;
+package main.test.llm;
 
 import com.grp.aiapp.local.llm.config.DataLoaderConfig;
 import com.grp.aiapp.local.llm.model.VectorDocument;

@@ -1,31 +1,30 @@
 package com.grp.aiapp.local.llm.model;
+import lombok.Data;
 
+import java.util.List;
+
+@Data
 public class PolicyDocument {
 
-    private String id;
+    private String policyId;
+
+    private String category;
+
+    private String plan;
+
+    private String region;
+
+    private String customerType;
+
+    private String coverageLimit;
+
+    private String duration;
+
+    private List<String> addons;
+
+    private String claimChannel;
+
     private String content;
 
-    public PolicyDocument() {
-    }
-
-    public PolicyDocument(String id, String content) {
-        this.id = id;
-        this.content = content;
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public String getContent() {
-        return content;
-    }
-
-    public void setContent(String content) {
-        this.content = content;
-    }
+    private float[] embedding;
 }

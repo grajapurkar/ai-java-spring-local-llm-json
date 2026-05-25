@@ -1,4 +1,4 @@
-package com.grp.aiapp.local.llm;
+package main.test.llm;
 
 import com.grp.aiapp.local.llm.service.PromptBuilder;
 import org.junit.jupiter.api.Test;
