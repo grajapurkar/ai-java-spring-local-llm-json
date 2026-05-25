@@ -8,6 +8,10 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+
+
+import java.util.List;
+
 @Service
 @RequiredArgsConstructor
 public class RagService {
@@ -16,20 +20,17 @@ public class RagService {
 
     private final InMemoryVectorStore vectorStore;
 
-    public String retrieve(String question) {
+    public List<PolicyDocument> retrieve(
+            String query
+    ) {
 
         float[] queryEmbedding =
                 embeddingService
-                        .generateEmbedding(question);
+                        .generateEmbedding(query);
 
-        List<PolicyDocument> matches =
-                vectorStore.similaritySearch(
-                        queryEmbedding,
-                        3
-                );
-
-        return matches.stream()
-                .map(PolicyDocument::getContent)
-                .reduce("", (a, b) -> a + "\n" + b);
+        return vectorStore.similaritySearch(
+                queryEmbedding,
+                5
+        );
     }
 }

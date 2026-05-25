@@ -1,7 +1,6 @@
 package com.grp.aiapp.local.llm.vector;
 
 import com.grp.aiapp.local.llm.model.PolicyDocument;
-import com.grp.aiapp.local.llm.model.VectorDocument;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
@@ -24,12 +23,15 @@ public class InMemoryVectorStore {
     ) {
 
         return documents.stream()
-                .sorted(Comparator.comparingDouble(
-                        doc -> -cosineSimilarity(
-                                queryEmbedding,
-                                doc.getEmbedding()
+                .sorted(
+                        Comparator.comparingDouble(
+                                doc ->
+                                        -cosineSimilarity(
+                                                queryEmbedding,
+                                                doc.getEmbedding()
+                                        )
                         )
-                ))
+                )
                 .limit(topK)
                 .toList();
     }
@@ -44,14 +46,18 @@ public class InMemoryVectorStore {
         double normB = 0.0;
 
         for (int i = 0; i < a.length; i++) {
+
             dot += a[i] * b[i];
+
             normA += Math.pow(a[i], 2);
+
             normB += Math.pow(b[i], 2);
         }
 
-        return dot / (
-                Math.sqrt(normA)
-                        * Math.sqrt(normB)
-        );
+        return dot /
+                (
+                        Math.sqrt(normA)
+                                * Math.sqrt(normB)
+                );
     }
 }
