@@ -1,5 +1,6 @@
 package com.grp.aiapp.local.llm.service;
 
+import com.grp.aiapp.local.llm.model.PolicyDocument;
 import com.grp.aiapp.local.llm.model.VectorDocument;
 import com.grp.aiapp.local.llm.vector.InMemoryVectorStore;
 import lombok.RequiredArgsConstructor;
@@ -21,14 +22,14 @@ public class RagService {
                 embeddingService
                         .generateEmbedding(question);
 
-        List<VectorDocument> matches =
+        List<PolicyDocument> matches =
                 vectorStore.similaritySearch(
                         queryEmbedding,
                         3
                 );
 
         return matches.stream()
-                .map(VectorDocument::getContent)
+                .map(PolicyDocument::getContent)
                 .reduce("", (a, b) -> a + "\n" + b);
     }
 }

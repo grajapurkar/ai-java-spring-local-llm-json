@@ -11,14 +11,14 @@ import java.util.List;
 @Component
 public class InMemoryVectorStore {
 
-    private final List<VectorDocument> documents =
+    private final List<PolicyDocument> documents =
             new ArrayList<>();
 
     public void add(PolicyDocument document) {
         documents.add(document);
     }
 
-    public List<VectorDocument> similaritySearch(
+    public List<PolicyDocument> similaritySearch(
             float[] queryEmbedding,
             int topK
     ) {
