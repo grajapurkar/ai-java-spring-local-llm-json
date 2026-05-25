@@ -1,0 +1,8 @@
+# Development profile overrides
+ai:
+  loader:
+    # Enable a limited ingestion in dev for faster iteration
+    enabled: true
+    # Limit policies loaded on startup when running with 'dev' profile
+    maxLines: 20
+

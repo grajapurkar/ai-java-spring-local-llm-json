@@ -1,0 +1,702 @@
+[
+  {
+    "policyId": "POL-1001",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 1."
+  },
+  {
+    "policyId": "POL-1002",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 2."
+  },
+  {
+    "policyId": "POL-1003",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 3."
+  },
+  {
+    "policyId": "POL-1004",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 4."
+  },
+  {
+    "policyId": "POL-1005",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 5."
+  },
+  {
+    "policyId": "POL-1006",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 6."
+  },
+  {
+    "policyId": "POL-1007",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 7."
+  },
+  {
+    "policyId": "POL-1008",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 8."
+  },
+  {
+    "policyId": "POL-1009",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 9."
+  },
+  {
+    "policyId": "POL-1010",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 10."
+  },
+  {
+    "policyId": "POL-1011",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 11."
+  },
+  {
+    "policyId": "POL-1012",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 12."
+  },
+  {
+    "policyId": "POL-1013",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 13."
+  },
+  {
+    "policyId": "POL-1014",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 14."
+  },
+  {
+    "policyId": "POL-1015",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 15."
+  },
+  {
+    "policyId": "POL-1016",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 16."
+  },
+  {
+    "policyId": "POL-1017",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 17."
+  },
+  {
+    "policyId": "POL-1018",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 18."
+  },
+  {
+    "policyId": "POL-1019",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 19."
+  },
+  {
+    "policyId": "POL-1020",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 20."
+  },
+  {
+    "policyId": "POL-1021",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 21."
+  },
+  {
+    "policyId": "POL-1022",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 22."
+  },
+  {
+    "policyId": "POL-1023",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 23."
+  },
+  {
+    "policyId": "POL-1024",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 24."
+  },
+  {
+    "policyId": "POL-1025",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 25."
+  },
+  {
+    "policyId": "POL-1026",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 26."
+  },
+  {
+    "policyId": "POL-1027",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 27."
+  },
+  {
+    "policyId": "POL-1028",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 28."
+  },
+  {
+    "policyId": "POL-1029",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 29."
+  },
+  {
+    "policyId": "POL-1030",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 30."
+  },
+  {
+    "policyId": "POL-1031",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 31."
+  },
+  {
+    "policyId": "POL-1032",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 32."
+  },
+  {
+    "policyId": "POL-1033",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 33."
+  },
+  {
+    "policyId": "POL-1034",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 34."
+  },
+  {
+    "policyId": "POL-1035",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 35."
+  },
+  {
+    "policyId": "POL-1036",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 36."
+  },
+  {
+    "policyId": "POL-1037",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 37."
+  },
+  {
+    "policyId": "POL-1038",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 38."
+  },
+  {
+    "policyId": "POL-1039",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 39."
+  },
+  {
+    "policyId": "POL-1040",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 40."
+  },
+  {
+    "policyId": "POL-1041",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 41."
+  },
+  {
+    "policyId": "POL-1042",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 42."
+  },
+  {
+    "policyId": "POL-1043",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 43."
+  },
+  {
+    "policyId": "POL-1044",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 44."
+  },
+  {
+    "policyId": "POL-1045",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 45."
+  },
+  {
+    "policyId": "POL-1046",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 46."
+  },
+  {
+    "policyId": "POL-1047",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 47."
+  },
+  {
+    "policyId": "POL-1048",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 48."
+  },
+  {
+    "policyId": "POL-1049",
+    "category": "Vehicle",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 49."
+  },
+  {
+    "policyId": "POL-1050",
+    "category": "Cyber",
+    "plan": "Elite",
+    "region": "Mumbai",
+    "customerType": "Corporate",
+    "coverageLimit": "10 lakh INR",
+    "duration": "3 years",
+    "addons": [
+      "fraud monitoring"
+    ],
+    "claimChannel": "online portal",
+    "content": "Insurance policy content example 50."
+  }
+]
