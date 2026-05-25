@@ -1,5 +1,6 @@
 package com.grp.aiapp.local.llm.vector;
 
+import com.grp.aiapp.local.llm.model.PolicyDocument;
 import com.grp.aiapp.local.llm.model.VectorDocument;
 import org.springframework.stereotype.Component;
 
@@ -13,7 +14,7 @@ public class InMemoryVectorStore {
     private final List<VectorDocument> documents =
             new ArrayList<>();
 
-    public void add(VectorDocument document) {
+    public void add(PolicyDocument document) {
         documents.add(document);
     }
 

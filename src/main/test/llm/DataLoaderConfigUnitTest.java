@@ -6,6 +6,7 @@ import com.grp.aiapp.local.llm.service.EmbeddingService;
 import com.grp.aiapp.local.llm.vector.InMemoryVectorStore;
 import org.junit.jupiter.api.Test;
 
+
 import java.lang.reflect.Field;
 import java.util.List;
 

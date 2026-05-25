@@ -1,76 +1,101 @@
 package com.grp.aiapp.local.llm.config;
 
-import com.grp.aiapp.local.llm.model.VectorDocument;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.grp.aiapp.local.llm.model.PolicyDocument;
 import com.grp.aiapp.local.llm.service.EmbeddingService;
 import com.grp.aiapp.local.llm.vector.InMemoryVectorStore;
+import lombok.RequiredArgsConstructor;
+import org.springframework.context.annotation.Configuration;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.util.UUID;
-import java.util.stream.Stream;
+import java.io.InputStream;
+import java.util.List;
 
 @Configuration
 @RequiredArgsConstructor
 public class DataLoaderConfig {
-
     private final InMemoryVectorStore vectorStore;
 
     private final EmbeddingService embeddingService;
 
-    // Enable/disable the startup loader (useful for fast local iteration)
-    @Value("${ai.loader.enabled:true}")
-    private boolean loaderEnabled;
-
-    // Max number of lines to load from policies.txt. 0 = load all (default).
-    @Value("${ai.loader.maxLines:0}")
-    private int maxLines;
 
     @PostConstruct
     public void loadPolicies() {
 
-        if (!loaderEnabled) {
-            System.out.println("DataLoader disabled via ai.loader.enabled=false");
-            return;
-        }
+        try {
 
-        try (BufferedReader reader =
-                     new BufferedReader(
-                             new InputStreamReader(
-                                     getClass().getResourceAsStream("/policies.txt")
-                             )
-                     )) {
+            ObjectMapper mapper =
+                    new ObjectMapper();
 
-            Stream<String> lines = reader.lines().filter(line -> !line.isBlank());
+            InputStream stream =
+                    getClass()
+                            .getResourceAsStream(
+                                    "/policies.json"
+                            );
 
-            if (maxLines > 0) {
-                lines = lines.limit(maxLines);
-                System.out.println("DataLoader: limiting policies loaded to " + maxLines + " lines");
-            }
+            List<PolicyDocument> policies =
+                    mapper.readValue(
+                            stream,
+                            new TypeReference<>() {}
+                    );
 
-            lines.forEach(line -> {
+            for (PolicyDocument policy : policies) {
+
+                String embeddingText =
+                        buildEmbeddingText(policy);
 
                 float[] embedding =
                         embeddingService
-                                .generateEmbedding(line);
+                                .generateEmbedding(
+                                        embeddingText
+                                );
 
-                VectorDocument document =
-                        new VectorDocument(
-                                UUID.randomUUID().toString(),
-                                line,
-                                embedding
-                        );
+                policy.setEmbedding(embedding);
 
-                vectorStore.add(document);
-            });
+                vectorStore.add(policy);
+            }
 
-            System.out.println("Policies loaded into vector store");
+            System.out.println(
+                    "Loaded policies = "
+                            + policies.size()
+            );
 
         } catch (Exception ex) {
+
             throw new RuntimeException(ex);
         }
+    }
+
+    private String buildEmbeddingText(
+            PolicyDocument policy
+    ) {
+
+        return """
+                Category: %s
+                Plan: %s
+                Region: %s
+                Customer Type: %s
+                Coverage Limit: %s
+                Duration: %s
+                Addons: %s
+                Claim Channel: %s
+                Content: %s
+                """
+                .formatted(
+                        policy.getCategory(),
+                        policy.getPlan(),
+                        policy.getRegion(),
+                        policy.getCustomerType(),
+                        policy.getCoverageLimit(),
+                        policy.getDuration(),
+                        policy.getAddons(),
+                        policy.getClaimChannel(),
+                        policy.getContent()
+                );
     }
 }
