@@ -1,6 +1,6 @@
 package main.test.llm;
 
-import com.grp.aiapp.local.llm.model.VectorDocument;
+import com.grp.aiapp.local.llm.model.PolicyDocument;
 import com.grp.aiapp.local.llm.service.EmbeddingService;
 import com.grp.aiapp.local.llm.service.RagService;
 import com.grp.aiapp.local.llm.vector.InMemoryVectorStore;
@@ -27,15 +27,24 @@ public class RagServiceUnitTest {
         float[] e1 = new float[]{1.0f, 0.0f};
         float[] e2 = new float[]{0.0f, 1.0f};
 
-        store.add(new VectorDocument(UUID.randomUUID().toString(), "Policy A", e1));
-        store.add(new VectorDocument(UUID.randomUUID().toString(), "Policy B", e2));
+        PolicyDocument pA = new PolicyDocument();
+        pA.setPolicyId(UUID.randomUUID().toString());
+        pA.setContent("Policy A");
+        pA.setEmbedding(e1);
+        store.add(pA);
+
+        PolicyDocument pB = new PolicyDocument();
+        pB.setPolicyId(UUID.randomUUID().toString());
+        pB.setContent("Policy B");
+        pB.setEmbedding(e2);
+        store.add(pB);
 
         RagService ragService = new RagService(embeddingService, store);
 
-        String result = ragService.retrieve("anything");
+        java.util.List<PolicyDocument> result = ragService.retrieve("anything");
 
         // Should include Policy A (most similar) and may include Policy B depending on topK and values
-        assertTrue(result.contains("Policy A"));
+        assertTrue(result.stream().anyMatch(p -> p.getContent().equals("Policy A")));
     }
 }
 

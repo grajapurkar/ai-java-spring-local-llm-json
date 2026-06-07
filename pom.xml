@@ -85,7 +85,7 @@
                                 <configuration>
                                     <excludes>
                                         <!-- Exclude native-heavy embedding init class from coverage check -->
-                                        <exclude>**/com/example/aipoc/service/EmbeddingService*</exclude>
+                                        <exclude>**/com/grp/aiapp/local/llm/service/EmbeddingService*</exclude>
                                     </excludes>
                                 </configuration>
                         <executions>
